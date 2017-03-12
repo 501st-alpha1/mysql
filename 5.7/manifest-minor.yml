@@ -1,0 +1,12 @@
+image: 501stalpha1/mysql:5.7
+manifests:
+  -
+    image: 501stalpha1/mysql:5.7-amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: 501stalpha1/mysql:5.7-386
+    platform:
+      architecture: 386
+      os: linux
